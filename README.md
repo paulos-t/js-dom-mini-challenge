@@ -47,7 +47,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+Add 'defer' to the reference to the index.js file in the index.html <head> so that the html is executed before the javascript
 ```
 ___________
 
@@ -57,7 +57,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+Use 'element.style.<any-css-property>' to change style of an element
 ```
 ___________
 
@@ -71,7 +71,7 @@ Using the `traveler` object, update the DOM to show the traveler's *name*, *nick
 
 **YOUR NOTES**
 ```
-
+Use querySelector to access elements, and use attribute names to access the attribute values. Use textContent for text contained in tags
 ```
 ___________
 
@@ -89,7 +89,7 @@ We also want to show some of the awesome animal sightings our traveler had. You'
 
 **YOUR NOTES**
 ```
-
+The 'forEach()' method uses an arrow function or a callback function. Use '<element>.append(child1, child2, ...)' to add multiple elements in order to a parent element.
 ```
 
 **NOTE**: The `data-id` attribute is a custom property known as a "dataset attribute". They're useful for adding additional data to the DOM that doesn't have any effect on CSS of what the user sees - they're purely meant as tools for Javascript developers. We'll use this `data-id` attribute in the next deliverable.
@@ -110,5 +110,5 @@ Use Javascript to find the element with the `[data-id='3']` attribute, and *remo
 
 **YOUR NOTES**
 ```
-
+CSS selectors are powerful
 ```
